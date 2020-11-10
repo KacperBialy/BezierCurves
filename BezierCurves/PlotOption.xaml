@@ -1,0 +1,59 @@
+﻿<Window x:Class="BezierCurves.PlotOption"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BezierCurves"
+        mc:Ignorable="d"
+        Title="PlotOption" Height="450" Width="800">
+    <Grid Margin="40">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" >Action</Label>
+        <Label Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="20">Gesture</Label>
+
+        <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Zoom</Label>
+        <Label Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Mouse wheel</Label>
+
+        <Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Zoom by rectangle</Label>
+        <Label Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Left mouse button</Label>
+
+        <Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Show tracker</Label>
+        <Label Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Right mouse button</Label>
+
+        <Label Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Reset axes</Label>
+        <Label Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">'R'</Label>
+
+        <Label Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Move Up / Left / Down / Right</Label>
+        <Label Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">'W / A / S / D'</Label>
+
+        <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+        <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+        <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+        <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+        <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+        <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+        <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+        <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+        <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+        <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+
+    </Grid>
+</Window>
